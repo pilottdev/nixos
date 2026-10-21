@@ -18,6 +18,9 @@
   environment.systemPackages = with pkgs; [
     nixfmt
     git
+    gh
+    glab
+    forgejo-cli
     curl
     rsync
     nmap
