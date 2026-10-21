@@ -11,7 +11,7 @@
     ./modules/graphics.nix
     ./modules/users.nix
     ./modules/packages.nix
-    ./modules/virtualization.nix
+    ./modules/virtualisation.nix
   ];
 
   # First NixOS version installed on this machine. Do NOT change it, even
