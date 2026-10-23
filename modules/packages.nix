@@ -8,10 +8,15 @@
   programs.vscode = {
     enable = true;
     extensions = with pkgs.vscode-extensions; [
+      pkgs.vscode-marketplace.darkriszty.markdown-table-prettify
+
       jnoortheen.nix-ide
       hashicorp.terraform
-      pkgs.vscode-marketplace.darkriszty.markdown-table-prettify
-      pkgs.vscode-marketplace.anthropic.claude-code
+      anthropic.claude-code
+      esbenp.prettier-vscode
+      dbaeumer.vscode-eslint
+      bradlc.vscode-tailwindcss
+      svelte.svelte-vscode
     ];
   };
 
