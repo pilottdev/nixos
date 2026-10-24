@@ -55,6 +55,7 @@
         };
 
         "org/gnome/desktop/interface".enable-hot-corners = false;
+        "org/gnome/desktop/notifications".show-in-lock-screen = false;
 
         "org/gnome/desktop/privacy" = {
           remember-recent-files = true;
